@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.repositories {
+  text-align: left;
+}
+
+.content-repositories {
+  margin:5px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

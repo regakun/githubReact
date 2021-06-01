@@ -13,7 +13,7 @@ export function setRepositoriesAsync(username) {
         fetch(`https://api.github.com/users/${username}/repos`)
         .then((response) => response.json())
         .then((data) => {
-            dispatch(setRepositories(data.results))
+            dispatch(setRepositories(data))
       })
       .catch(err => {
         console.log(err)

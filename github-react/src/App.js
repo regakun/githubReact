@@ -18,7 +18,7 @@ export default function App() {
     <Router>
       <div>
         <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">Github</Navbar.Brand>
+        <Navbar.Brand href="/">Github</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
